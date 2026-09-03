@@ -1,0 +1,57 @@
+DOKUMENTACJA APLIKACJI
+
+Numer zdającego: NUMER_ZDAJACEGO
+
+Narzędzia wykorzystane na egzaminie
+
+Nazwa systemu operacyjnego:
+Windows 11
+
+Nazwa środowiska programistycznego:
+Microsoft Visual Studio
+
+Nazwa języka programowania:
+C#
+
+Technologie:
+.NET
+Windows Forms
+Aplikacja konsolowa .NET
+
+Aplikacja konsolowa
+
+Nazwa projektu:
+konsola
+
+Opis działania:
+Program pobiera od użytkownika liczbę zestawów do wygenerowania. Każdy zestaw zawiera sześć różnych liczb całkowitych z zakresu od 1 do 49. Wyniki losowań są zapisywane w dwuwymiarowej tablicy liczb całkowitych. Program wyświetla wszystkie wygenerowane zestawy, a następnie liczbę wystąpień każdej liczby od 1 do 49.
+
+Struktura plików aplikacji konsolowej:
+konsola/
+konsola.sln
+konsola.csproj
+Program.cs
+
+Aplikacja desktopowa
+
+Nazwa projektu:
+desktopowa
+
+Opis działania:
+Aplikacja pozwala wybrać kolor w modelu RGB za pomocą trzech suwaków. Każdy suwak odpowiada za jeden składnik barwy: R, G albo B. Zmiana położenia suwaka od razu zmienia wartości po prawej stronie oraz kolor dużego prostokąta. Po kliknięciu przycisku Pobierz aktualny kolor zostaje zapisany w małym prostokącie, a obok wyświetlane są pobrane wartości RGB. Kolejne przesunięcia suwaków nie zmieniają małego prostokąta do momentu ponownego kliknięcia przycisku Pobierz.
+
+Struktura plików aplikacji desktopowej:
+desktopowa/
+desktopowa.sln
+desktopowa.csproj
+Program.cs
+Form1.cs
+
+Pliki dokumentacji:
+egzamin.txt
+konsola1.png
+konsola2.png
+desktop1.png
+desktop2.png
+desktop3.png
+desktop4.png

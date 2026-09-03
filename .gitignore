@@ -1,0 +1,51 @@
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio folders
+.vs/
+
+# Test results and coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Publish output
+publish/
+PublishOutput/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+*.pdb
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Keep project source files and documentation
+!Konsolowa/
+!Desktopowa/
+!Dokumentacja/
