@@ -1,0 +1,50 @@
+DOKUMENTACJA APLIKACJI
+
+Imię i nazwisko: Oliwier Klinkosz
+Numer zdającego: ....................................
+
+1. System operacyjny
+
+Windows 10 / Windows 11
+
+2. Środowisko programistyczne
+
+Microsoft Visual Studio
+
+3. Język programowania
+
+C#
+
+4. Aplikacja konsolowa
+
+Aplikacja konsolowa pobiera numer PESEL od użytkownika.
+Program określa płeć na podstawie dziesiątej cyfry numeru PESEL.
+Cyfra parzysta oznacza kobietę, a cyfra nieparzysta oznacza mężczyznę.
+
+Program sprawdza również poprawność sumy kontrolnej PESEL.
+Do obliczeń wykorzystano wagi: 1, 3, 7, 9, 1, 3, 7, 9, 1, 3.
+
+5. Aplikacja desktopowa
+
+Aplikacja desktopowa umożliwia wpisanie numeru, imienia oraz nazwiska.
+Użytkownik wybiera jeden kolor oczu: niebieskie, zielone albo piwne.
+
+Po opuszczeniu pola Numer aplikacja wyświetla zdjęcie osoby i odcisk palca.
+Nazwy plików obrazów tworzone są na podstawie wpisanego numeru.
+
+Po kliknięciu przycisku OK wyświetlany jest komunikat zawierający imię, nazwisko oraz kolor oczu.
+Jeżeli imię albo nazwisko nie zostało wprowadzone, aplikacja wyświetla komunikat „Wprowadz dane”.
+
+6. Zrzuty ekranu
+
+konsola1 – uruchomienie programu konsolowego i wpisanie numeru PESEL.
+
+konsola2 – wynik działania programu konsolowego: płeć oraz sprawdzenie sumy kontrolnej.
+
+desktop1 – początkowy widok aplikacji desktopowej.
+
+desktop2 – aplikacja po wpisaniu numeru i wyświetleniu zdjęcia oraz odcisku palca.
+
+desktop3 – komunikat po wprowadzeniu imienia, nazwiska i kliknięciu przycisku OK.
+
+desktop4 – komunikat „Wprowadz dane” po pozostawieniu pustego imienia albo nazwiska.
