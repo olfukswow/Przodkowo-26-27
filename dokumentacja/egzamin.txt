@@ -1,0 +1,13 @@
+System operacyjny:
+Windows 10 lub Windows 11
+
+Środowisko programistyczne:
+Microsoft Visual Studio
+
+Język programowania:
+C#
+
+Technologie:
+.NET 8.0
+WPF
+xUnit
