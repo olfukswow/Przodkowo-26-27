@@ -1,0 +1,55 @@
+DOKUMENTACJA APLIKACJI
+
+
+1. Nazwa systemu operacyjnego
+
+Windows 10 lub Windows 11
+
+2. Nazwa środowiska programistycznego
+
+Microsoft Visual Studio
+
+3. Nazwa języka programowania
+
+C#
+
+4. Aplikacja konsolowa
+
+Aplikacja konsolowa pobiera od użytkownika numer PESEL.
+Program określa płeć na podstawie dziesiątej cyfry numeru PESEL.
+
+Cyfra parzysta oznacza kobietę.
+Cyfra nieparzysta oznacza mężczyznę.
+
+Program sprawdza także sumę kontrolną numeru PESEL.
+Pierwsze dziesięć cyfr jest mnożonych przez wagi:
+1, 3, 7, 9, 1, 3, 7, 9, 1, 3.
+
+Następnie obliczana jest suma iloczynów, reszta z dzielenia przez 10 oraz wartość cyfry kontrolnej.
+
+5. Aplikacja desktopowa
+
+Aplikacja desktopowa służy do wprowadzania danych paszportowych.
+
+Użytkownik może podać numer, imię i nazwisko.
+Może również wybrać kolor oczu: niebieskie, zielone albo piwne.
+
+Po opuszczeniu pola Numer program wyszukuje zdjęcie osoby oraz odcisk palca.
+Pliki graficzne są wybierane na podstawie numeru wpisanego przez użytkownika.
+
+Po naciśnięciu przycisku OK program wyświetla imię, nazwisko oraz kolor oczu.
+Jeżeli nie wprowadzono imienia albo nazwiska, pojawia się komunikat „Wprowadz dane”.
+
+6. Zrzuty ekranu
+
+konsola1 – wpisanie numeru PESEL.
+
+konsola2 – wyświetlenie płci oraz informacji o sumie kontrolnej.
+
+desktop1 – początkowy wygląd aplikacji.
+
+desktop2 – wyświetlenie zdjęcia i odcisku po wpisaniu numeru.
+
+desktop3 – komunikat po poprawnym wpisaniu danych.
+
+desktop4 – komunikat „Wprowadz dane”.
