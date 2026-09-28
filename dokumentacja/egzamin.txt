@@ -1,0 +1,32 @@
+DOKUMENTACJA APLIKACJI
+
+Numer PESEL zdającego: ........................................
+
+1. System operacyjny
+
+Windows 10 lub Windows 11.
+
+2. Środowiska programistyczne
+
+Microsoft Visual Studio.
+
+3. Języki programowania
+
+C# oraz XAML.
+
+4. Aplikacja konsolowa
+
+Aplikacja konsolowa sortuje tablicę 10 liczb całkowitych malejąco metodą przez wybieranie. Tablica jest polem klasy. Klasa zawiera metodę SortujMalejaco oraz metodę SzukajNajwiekszejWartosci. Nie użyto gotowej funkcji sortowania ani gotowej funkcji wyszukiwania maksimum.
+
+5. Aplikacja mobilna
+
+Aplikacja mobilna służy do rejestracji konta. Użytkownik podaje adres e-mail, hasło i powtórzenie hasła. Po zatwierdzeniu program sprawdza, czy adres e-mail zawiera znak @ oraz czy oba hasła są takie same.
+
+6. Urządzenie lub system emulatora
+
+Emulator Androida, na przykład Nexus 5X API 29 x86.
+
+7. Zrzuty ekranu
+
+konsola.jpg — uruchomiona aplikacja konsolowa i posortowana tablica.
+mobilna.jpg — uruchomiona aplikacja mobilna z wpisanymi danymi i komunikatem.
