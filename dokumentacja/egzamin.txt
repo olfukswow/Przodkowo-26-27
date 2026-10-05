@@ -1,0 +1,35 @@
+DOKUMENTACJA APLIKACJI
+
+Numer PESEL zdającego: ........................................
+
+1. System operacyjny
+
+Windows 10 lub Windows 11.
+
+2. Środowisko programistyczne
+
+Microsoft Visual Studio.
+
+3. Emulator aplikacji mobilnej
+
+Emulator Androida, na przykład Nexus 5X API 29 x86 albo Android Oreo.
+
+4. Języki programowania
+
+C#, XAML.
+
+5. Aplikacja konsolowa
+
+Aplikacja konsolowa implementuje klasę Notatka. Klasa ma statyczny licznik utworzonych notatek, identyfikator, tytuł oraz treść. Konstruktor zwiększa licznik, nadaje obiektowi unikalny identyfikator i zapisuje tytuł oraz treść. Dwie metody bezparametrowe wyświetlają dane notatki oraz wartości wszystkich pól oddzielone średnikami.
+
+Program główny tworzy dwie notatki i uruchamia obie metody dla każdej z nich.
+
+6. Aplikacja mobilna
+
+Aplikacja umożliwia przeglądanie trzech początkowych notatek oraz dodawanie nowych notatek. Użytkownik wpisuje treść do pola „Nowy element”, a następnie wybiera przycisk „DODAJ”. Nowy tekst jest dopisywany na końcu listy.
+
+7. Zrzuty ekranu
+
+konsola1.png — uruchomiona aplikacja konsolowa z dwiema notatkami i wynikami działania metod.
+mobilne1.png — początkowy wygląd aplikacji mobilnej.
+mobilne2.png — aplikacja mobilna po dodaniu nowego elementu.
