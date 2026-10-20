@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="NotatkiMobilne.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NotatkiMobilne"
+    BackgroundColor="#F0F8FF"
+    Shell.NavBarIsVisible="False">
+
+    <StackLayout
+        Padding="0"
+        BackgroundColor="#F0F8FF"
+        Spacing="4"
+        VerticalOptions="Fill">
+
+        <Label
+            Margin="4,0"
+            FontSize="24"
+            Text="Notatki"
+            TextColor="#0000CD" />
+
+        <ListView
+            x:Name="ListaNotatek"
+            BackgroundColor="#F0F8FF"
+            HasUnevenRows="True"
+            SelectionMode="None"
+            SeparatorColor="#E0E0E0"
+            SeparatorVisibility="Default"
+            VerticalOptions="FillAndExpand">
+
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:Notatka">
+                    <ViewCell>
+                        <VerticalStackLayout
+                            Padding="12,6"
+                            BackgroundColor="#F0F8FF"
+                            Spacing="2">
+
+                            <Label
+                                FontSize="14"
+                                Text="{Binding Tytul}"
+                                TextColor="#DB7093" />
+
+                            <Label
+                                FontSize="12"
+                                Text="{Binding Tresc}"
+                                TextColor="#666666" />
+
+                        </VerticalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <Label
+            Margin="4,0"
+            FontSize="24"
+            Text="Dodanie notatki"
+            TextColor="#0000CD" />
+
+        <Label
+            Margin="4,0"
+            FontSize="12"
+            Text="Tytuł notatki:"
+            TextColor="#666666" />
+
+        <Entry
+            x:Name="PoleTytulu"
+            BackgroundColor="#F0F8FF"
+            HorizontalOptions="Fill"
+            TextColor="Black" />
+
+        <Label
+            Margin="4,0"
+            FontSize="12"
+            Text="Treść notatki:"
+            TextColor="#666666" />
+
+        <Entry
+            x:Name="PoleTresci"
+            BackgroundColor="#F0F8FF"
+            HorizontalOptions="Fill"
+            TextColor="Black" />
+
+        <Button
+            BackgroundColor="#D3D3D3"
+            Clicked="DodajNotatke_Clicked"
+            CornerRadius="0"
+            HorizontalOptions="Fill"
+            Text="DODAJ"
+            TextColor="#0000CD" />
+
+    </StackLayout>
+
+</ContentPage>
