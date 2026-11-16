@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: white;
+  color: #212529;
+  font-family: Arial, sans-serif;
+}
+
+.aplikacja {
+  padding: 20px;
+}
+
+.kategorie {
+  margin-bottom: 5px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.zdjecie {
+  width: 410px;
+  max-width: 100%;
+  padding-bottom: 5px;
+}
+
+.zdjecie img {
+  display: block;
+  width: calc(100% - 10px);
+  height: auto;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+.zdjecie h4 {
+  margin: 0 5px 8px;
+}
+
+.zdjecie button {
+  margin-left: 5px;
+}
